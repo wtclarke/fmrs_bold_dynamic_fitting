@@ -1,0 +1,10 @@
+{
+  "SpectrometerFrequency": 123,
+  "ResonantNucleus": "1H",
+  "SpectralWidth": 6000,
+  "NumberOfSpectralPoints": 2048,
+  "AcquisitionVoxelSize": ["NA", "NA", "NA"],
+  "ChemicalShiftOffset": 4.65,
+  "dim_5": "DIM_COIL",
+  "dim_6": "DIM_DYN"
+}

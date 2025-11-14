@@ -1,0 +1,7 @@
+[
+        {
+            "name": "mean_activation",
+            "betas": ["STIM0", "STIM1"],
+            "scale": [0.5, 0.5]
+        }
+]

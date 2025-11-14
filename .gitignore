@@ -1,0 +1,9 @@
+.DS_Store
+
+# pixi environments
+.pixi
+*.egg-info
+
+dyn_demo
+simulated_data_subset
+simulated_data
