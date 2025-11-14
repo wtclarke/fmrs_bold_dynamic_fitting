@@ -2,15 +2,16 @@
 authors = ["wtclarke <william.clarke@ndcn.ox.ac.uk>"]
 channels = ["https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/public/", "conda-forge"]
 name = "special_issue_fmrs"
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
-configure_r_dev = {cmd = ['R', '-e', 'devtools::install_github("martin3141/spant", ref = "devel", dependencies = TRUE)']}
-generate_data = {cmd = ['R', '<', 'data_generation/01_bednarik_simulation.R', '--no-save'], depends-on = ["configure_r_dev"]}
+_configure_r_dev = {cmd = ['R', '-e', 'devtools::install_github("martin3141/spant", ref = "devel", dependencies = TRUE)']}
+_simulate_data = {cmd = ['R', '<', 'data_generation/01_bednarik_simulation.R', '--no-save'], depends-on = ["_configure_r_dev"]}
+generate_data = {cmd = "python data_generation/touch_up_data.py"}
 
 file-tree = {cmd = ['file-tree', 'dynamic_fitting.tree']}
-first_level = {cmd = ['python', 'run_dynamic_fitting.py']} --subject sub-001
+first_level = {cmd = ['python', 'run_dynamic_fitting.py']}
 
 [dependencies]
 fsl_mrs = ">=2.4.10,<3"

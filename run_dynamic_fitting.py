@@ -41,7 +41,7 @@ def first_level(
 
 
 pipe = Pipeline(default_submit=dict(logdir="processing_logs"))
-pipe(first_level, submit=dict(jobtime=int(60)), as_path=True)
+pipe(first_level, submit=dict(jobtime=int(120)), as_path=True)
 
 
 if __name__ == "__main__":
