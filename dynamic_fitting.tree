@@ -4,7 +4,7 @@ simulated_data
             mrs
                 {subject}_svs.nii.gz            (raw_data)
 dyn_models
-    des_mat_{lb_model}.csv                      (first_level_design_mat)
+    des_mat_{field}_{lb_model}.csv              (first_level_design_mat)
     config_{lb_model}.py                        (first_level_config)
 basis_sets
     basis_{field}                               (basis)

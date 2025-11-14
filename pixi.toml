@@ -7,8 +7,8 @@ version = "0.1.0"
 
 [tasks]
 _configure_r_dev = {cmd = ['R', '-e', 'devtools::install_github("martin3141/spant", ref = "devel", dependencies = TRUE)']}
-_simulate_data = {cmd = ['R', '<', 'data_generation/01_bednarik_simulation.R', '--no-save'], depends-on = ["_configure_r_dev"]}
-generate_data = {cmd = "python data_generation/touch_up_data.py"}
+_simulate_data = {cmd = "Rscript data_generation/01_bednarik_simulation.R"}
+generate_data = {cmd = "python data_generation/touch_up_data.py", depends-on = ["_simulate_data"]}
 
 file-tree = {cmd = ['file-tree', 'dynamic_fitting.tree']}
 first_level = {cmd = ['python', 'run_dynamic_fitting.py']}
