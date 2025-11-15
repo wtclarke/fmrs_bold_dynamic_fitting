@@ -12,3 +12,4 @@ first_level_fits
     {field}
         {lb_model}
             {subject}                           (first_level_fit)
+                dyn_results.csv
