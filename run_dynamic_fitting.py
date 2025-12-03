@@ -40,8 +40,38 @@ def first_level(
         first_level_fit)
 
 
+@cmdwrapper
+def fmrs_stats(dirs, output, fl_contrasts, contrasts, ftests):
+    dirs_as_list = [str(x) for x in dirs.data]
+    cmd = [
+        'fmrs_stats',
+        '--data',]\
+        + dirs_as_list\
+        + ['--output', output,
+        '--fl-contrasts', fl_contrasts,
+        '--combine', 'NAA', 'NAAG',
+        '--combine', 'Cr', 'PCr',
+        '--combine', 'PCh', 'GPC',
+        '--combine', 'Glu', 'Gln',
+        '--hl-contrasts', contrasts,
+        '--hl-ftests', ftests,
+        '--overwrite']
+    print(cmd)
+    return cmd
+
+
+def second_level(
+    first_level_fit: In,
+    hl_contrasts: In,
+    hl_ftests: In,
+    fl_contrasts: In,
+    second_level: Out
+):
+    fmrs_stats(first_level_fit, second_level, fl_contrasts, hl_contrasts, hl_ftests)
+
 pipe = Pipeline(default_submit=dict(logdir="processing_logs"))
 pipe(first_level, submit=dict(jobtime=int(120)), as_path=True)
+pipe(second_level, submit=dict(jobtime=int(20)), as_path=False, no_iter=['subject'])
 
 
 if __name__ == "__main__":

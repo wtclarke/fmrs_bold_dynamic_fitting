@@ -13,3 +13,10 @@ first_level_fits
         {lb_model}
             {subject}                           (first_level_fit)
                 dyn_results.csv
+dyn_second_level
+    design.con                                  (hl_contrasts)
+    design.fts                                  (hl_ftests)
+    fl_contrasts.json                           (fl_contrasts)
+group_results
+    {field}_{lb_model}                          (second_level)
+        group_stats.csv                         (group_stats)

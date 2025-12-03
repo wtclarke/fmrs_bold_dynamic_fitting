@@ -11,13 +11,13 @@ _simulate_data = {cmd = "Rscript data_generation/01_bednarik_simulation.R"}
 generate_data = {cmd = "python data_generation/touch_up_data.py", depends-on = ["_simulate_data"]}
 
 file-tree = {cmd = ['file-tree', 'dynamic_fitting.tree']}
-first_level = {cmd = ['python', 'run_dynamic_fitting.py']}
+dynamic-fit = {cmd = ['python', 'run_dynamic_fitting.py'], env = { FSLDIR = ".pixi/envs/default" , FSLOUTPUTTYPE = "NIFTI_GZ"}}
 
 [dependencies]
 fsl_mrs = ">=2.4.10,<3"
 ipykernel = ">=7.1.0,<8"
 nilearn = ">=0.12.1,<0.13"
-fsl-flameo = ">=2111.2,<2112"
+fsl-flameo = ">=2111.3,<2112"
 r-devtools = ">=2.4.6,<3"
 r = ">=4.5,<4.6"
 r-nloptr = ">=2.2.1,<3"
