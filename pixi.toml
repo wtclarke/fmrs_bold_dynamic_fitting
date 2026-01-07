@@ -10,7 +10,7 @@ _configure_r_dev = {cmd = ['R', '-e', 'devtools::install_github("martin3141/span
 _simulate_data = {cmd = "Rscript data_generation/01_bednarik_simulation.R"}
 generate_data = {cmd = "python data_generation/touch_up_data.py", depends-on = ["_simulate_data"]}
 
-file-tree = {cmd = ['file-tree', 'dynamic_fitting.tree']}
+ft = {cmd = ['file-tree', 'dynamic_fitting.tree']}
 dynamic-fit = {cmd = ['python', 'run_dynamic_fitting.py'], env = { FSLDIR = ".pixi/envs/default" , FSLOUTPUTTYPE = "NIFTI_GZ"}}
 
 [dependencies]

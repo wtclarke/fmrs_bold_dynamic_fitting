@@ -2,7 +2,7 @@
 # Parameter - functional relationships
 Parameters = {
 'conc'     : {'dynamic':'model_glm1','params':['STIM0', 'STIM1', 'constant']},
-'gamma'    : {'dynamic':'model_glm2','params':['const_lb', 'bold_lb']},
+'gamma'    : {'dynamic':'model_glm2','params':['bold_lb',]},
 'sigma'    : 'fixed',
 'eps'      : 'fixed',
 'baseline' : 'fixed',
@@ -14,7 +14,7 @@ Parameters = {
 Bounds = {
 'sigma' : (0,None),
 'constant' : (0,None),
-'const_lb' : (None, None)
+'baseline' : (0, 0)
 }
 
 # Dynamic models
@@ -27,11 +27,11 @@ def model_glm1_grad(p,t):
     return t[:, :3].T
 
 def model_glm2(p,t):
-    return dot(t[:, -2:],p)
+    return dot(t[:, -1:],p)
 
 # Dynamic model gradients
 def model_glm2_grad(p,t):
-    return t[:, -2:].T
+    return t[:, -1:].T
 
 # Init functions for the lorentzian linebroadening
 from functools import partial
@@ -85,22 +85,22 @@ def torbit_min(params, tvar, x0, censor_point=0.0):
         sigma = np.exp(x[-1])
         return torbit_negloglike(params, pred, sigma, censor_point=censor_point)
     
-    bounds = ((None, None), (None, None), (None, None))
+    bounds = ((None, None), (None, None))
     return minimize(loss,
                     x0,
                     bounds=bounds).x
 
 def model_glm2_init(y, t):
     lstsq_init = np.linalg.lstsq(
-        t[:, -2:],
+        t[:, -1:],
         y,
         rcond=None)[0]
     
-    log_sigma_init = np.log(np.std(y - t[:, -2:] @ lstsq_init))
+    log_sigma_init = np.log(np.std(y - t[:, -1:] @ lstsq_init))
     x0_torbit = np.concatenate([lstsq_init, [log_sigma_init]])
 
     return torbit_min(
         y,
-        t[:, -2:],
+        t[:, -1:],
         x0_torbit,
         censor_point=0.0)[:-1]

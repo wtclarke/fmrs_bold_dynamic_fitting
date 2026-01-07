@@ -15,6 +15,7 @@ Bounds = {
 'gamma' : (0,None),
 'sigma' : (0,None),
 'constant' : (0,None),
+'baseline' : (0, 0)
 }
 
 # Dynamic models
