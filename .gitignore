@@ -12,3 +12,6 @@ first_level_fits*
 group_results*
 
 test_*.ipynb
+
+first_level_1D
+results_1d
