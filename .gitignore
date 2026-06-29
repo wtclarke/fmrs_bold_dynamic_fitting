@@ -7,7 +7,7 @@
 dyn_demo
 simulated_data
 simulated_data*
-processing_logs
+processing_logs*
 first_level_fits*
 group_results*
 
@@ -15,3 +15,5 @@ test_*.ipynb
 
 first_level_1D
 results_1d
+
+static_fits

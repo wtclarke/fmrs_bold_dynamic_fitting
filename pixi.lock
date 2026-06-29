@@ -4,6 +4,8 @@ environments:
     channels:
     - url: https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/public/
     - url: https://conda.anaconda.org/conda-forge/
+    options:
+      pypi-prerelease-mode: if-necessary-or-explicit
     packages:
       linux-64:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
@@ -83,7 +85,7 @@ environments:
       - conda: https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/public/linux-64/fsl-utils-2412.6-h9e9c21a_0.conda
       - conda: https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/public/linux-64/fsl-znzlib-2111.0-hc1c3352_9.tar.bz2
       - conda: https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/public/noarch/fsl_mrs-2.4.10-py_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/fslpy-3.25.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/fslpy-3.27.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/fsspec-2025.10.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/gcc_impl_linux-64-15.2.0-hcacfade_7.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/gdk-pixbuf-2.44.4-h2b0a6b4_0.conda
@@ -531,7 +533,7 @@ environments:
       - conda: https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/public/osx-arm64/fsl-utils-2412.6-hea04a52_0.conda
       - conda: https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/public/osx-arm64/fsl-znzlib-2111.0-hcb4e17e_9.tar.bz2
       - conda: https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/public/noarch/fsl_mrs-2.4.10-py_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/fslpy-3.24.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/fslpy-3.27.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/fsspec-2025.10.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/gdk-pixbuf-2.44.4-h7542897_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/gfortran_impl_osx-arm64-14.3.0-h6d03799_1.conda
@@ -2327,9 +2329,9 @@ packages:
   - spec2nii >=0.8.5
   size: 220353
   timestamp: 1755720826703
-- conda: https://conda.anaconda.org/conda-forge/noarch/fslpy-3.24.0-pyhd8ed1ab_0.conda
-  sha256: 79a2f1613004aac9bc92a0563d5b723ea94f2c2a1edc1107e3f13e01d981f91a
-  md5: 4608b7830c1ef84150e41867d3207e59
+- conda: https://conda.anaconda.org/conda-forge/noarch/fslpy-3.27.0-pyhd8ed1ab_0.conda
+  sha256: 637448124c0b07d38d091438ead284d1ddcf2bd3b148397bd6185a79bf7e1776
+  md5: 58d549ba4c3ee71338c927167acd49b4
   depends:
   - dill
   - h5py >=2.9
@@ -2338,38 +2340,17 @@ packages:
   - python >=3.10
   - scipy >=0.18
   constrains:
-  - trimesh >=2.37.29
-  - wxpython >=4
-  - pillow >=3.2.0
-  - dcm2niix >=1.0.20171215
-  - indexed_gzip >=0.7
-  - rtree >=0.8.3
-  license: Apache-2.0
-  license_family: Apache
-  size: 6657025
-  timestamp: 1759222099954
-- conda: https://conda.anaconda.org/conda-forge/noarch/fslpy-3.25.0-pyhd8ed1ab_0.conda
-  sha256: c494a00a19b27f7f505283fa8ca482b269a2ade96bf0fc2cfb82f269f1d6ba47
-  md5: b37c215b6d1ae9dc87c0738b7ea85912
-  depends:
-  - dill
-  - h5py >=2.9
-  - nibabel >=2.4
-  - numpy >=1.18
-  - python >=3.10
-  - scipy >=0.18
-  constrains:
-  - trimesh >=2.37.29
-  - pillow >=3.2.0
-  - dcm2niix >=1.0.20171215
   - pyzstd
-  - wxpython >=4
-  - indexed_gzip >=0.7
+  - dcm2niix >=1.0.20171215
+  - pillow >=3.2.0
   - rtree >=0.8.3
+  - indexed_gzip >=0.7
+  - wxpython >=4
+  - trimesh >=2.37.29
   license: Apache-2.0
   license_family: Apache
-  size: 6721292
-  timestamp: 1763124832865
+  size: 6748374
+  timestamp: 1768348024527
 - conda: https://conda.anaconda.org/conda-forge/noarch/fsspec-2025.10.0-pyhd8ed1ab_0.conda
   sha256: df5cb57bb668cd5b2072d8bd66380ff7acb12e8c337f47dd4b9a75a6a6496a6d
   md5: d18004c37182f83b9818b714825a7627

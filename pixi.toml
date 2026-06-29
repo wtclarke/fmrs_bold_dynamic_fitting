@@ -8,7 +8,11 @@ version = "0.1.0"
 [tasks]
 _configure_r_dev = {cmd = ['R', '-e', 'devtools::install_github("martin3141/spant", ref = "devel", dependencies = TRUE)']}
 _simulate_data = {cmd = "Rscript data_generation/01_bednarik_simulation.R"}
-generate_data = {cmd = "python data_generation/touch_up_data.py", depends-on = ["_simulate_data"]}
+_broadened_data = {cmd = "Rscript data_generation/02_preprocess_lb.R", depends-on = ["_simulate_data"]}
+generate_data = {cmd = "python data_generation/touch_up_data.py", depends-on = ["_simulate_data", "_broadened_data"]}
+
+process_for_static = {cmd = "python data_generation/static_fit_processing.py"}
+static-fit = {cmd = ['python', 'run_static_fitting.py'], env = { FSLDIR = ".pixi/envs/default" , FSLOUTPUTTYPE = "NIFTI_GZ"}}
 
 ft = {cmd = ['file-tree', 'dynamic_fitting.tree']}
 dynamic-fit = {cmd = ['python', 'run_dynamic_fitting.py'], env = { FSLDIR = ".pixi/envs/default" , FSLOUTPUTTYPE = "NIFTI_GZ"}}
@@ -26,3 +30,4 @@ file-tree = ">=1.6.0,<2"
 fsl-pipe = ">=1.3.0,<2"
 textual = ">=6.6.0,<7"
 seaborn = ">=0.13.2,<0.14"
+fslpy = ">=3.26.0, <4"
