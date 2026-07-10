@@ -22,7 +22,7 @@ def fit_default(
         avg_data,
         basis,
         static_fit_default,
-        baseline='off',
+        baseline='poly,1',
         no_rescale=True)
     
 def fit_preproc_lw(
@@ -35,7 +35,7 @@ def fit_preproc_lw(
         avg_data_broadened,
         basis,
         static_fit_preproc_lw,
-        baseline='off',
+        baseline='poly,1',
         no_rescale=True)
 
 def fit_basis_lw(
@@ -48,7 +48,7 @@ def fit_basis_lw(
         avg_data,
         basis_broadened,
         static_fit_basis_lw,
-        baseline='off',
+        baseline='poly,1',
         no_rescale=True)
 
 

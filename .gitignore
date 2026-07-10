@@ -16,4 +16,4 @@ test_*.ipynb
 first_level_1D
 results_1d
 
-static_fits
+static_fits*
