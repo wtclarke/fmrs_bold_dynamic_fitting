@@ -1,13 +1,33 @@
+block = 0, 1, 2, 3, 4
+field = 3T, 7T
+
 simulated_data
+    fmrs_bold_{field}-preproc-lb
+        {subject}
+            mrs
+                {subject}_svs.nii.gz            (raw_data_broadened)
+                {subject}_{block}_svs.nii.gz    (avg_data_broadened)
     fmrs_bold_{field}
         {subject}
             mrs
                 {subject}_svs.nii.gz            (raw_data)
+                {subject}_{block}_svs.nii.gz    (avg_data)
+basis_sets
+    basis_{field}                               (basis)
+    basis_broadened_{field}                     (basis_broadened)
+
+static_fits
+    {field}
+        {subject}
+            {block}
+                default                             (static_fit_default)
+                preproc_lw                          (static_fit_preproc_lw)
+                basis_lw                            (static_fit_basis_lw)
+
+
 dyn_models
     des_mat_{field}_{lb_model}.csv              (first_level_design_mat)
     config_{lb_model}.py                        (first_level_config)
-basis_sets
-    basis_{field}                               (basis)
 first_level_fits
     {field}
         {lb_model}

@@ -1,0 +1,271 @@
+,field,method,value_type,Metabolite,value
+0,3T,basis lw matching,Cohens d,Asc,0.07209271540447065
+1,3T,basis lw matching,Cohens d,Asp,0.0770328268432297
+2,3T,basis lw matching,Cohens d,GABA,0.0526745197617462
+3,3T,basis lw matching,Cohens d,Glc,0.12811660373763104
+4,3T,basis lw matching,Cohens d,Gln,0.23031223599956643
+5,3T,basis lw matching,Cohens d,Glu,0.347549248489525
+6,3T,basis lw matching,Cohens d,GSH,0.1724708629082329
+7,3T,basis lw matching,Cohens d,Ins,0.267899175939207
+8,3T,basis lw matching,Cohens d,Lac,0.10689277194679021
+9,3T,basis lw matching,Cohens d,PEth,0.008268443718239211
+10,3T,basis lw matching,Cohens d,sIns,0.06641800746424643
+11,3T,basis lw matching,Cohens d,Tau,0.11337712688676042
+12,3T,basis lw matching,Cohens d,tCho,0.34680787162329524
+13,3T,basis lw matching,Cohens d,tCr,0.4714789469094799
+14,3T,basis lw matching,Cohens d,tNAA,0.44904978139278195
+15,3T,basis lw matching,Mean,Asc,0.37565095383494806
+16,3T,basis lw matching,Mean,Asp,0.16562628853243752
+17,3T,basis lw matching,Mean,GABA,-0.30858582385053723
+18,3T,basis lw matching,Mean,Glc,-0.83851596054798
+19,3T,basis lw matching,Mean,Gln,-0.4380894050037032
+20,3T,basis lw matching,Mean,Glu,0.2970288064849678
+21,3T,basis lw matching,Mean,GSH,0.5246212175202432
+22,3T,basis lw matching,Mean,Ins,0.15435304276230138
+23,3T,basis lw matching,Mean,Lac,0.6147919928406678
+24,3T,basis lw matching,Mean,PEth,0.04375532159415564
+25,3T,basis lw matching,Mean,sIns,0.2580845540989468
+26,3T,basis lw matching,Mean,Tau,0.4413151550451083
+27,3T,basis lw matching,Mean,tCho,0.9166714007010915
+28,3T,basis lw matching,Mean,tCr,0.45564679053243545
+29,3T,basis lw matching,Mean,tNAA,0.9103216866177953
+30,3T,basis lw matching,SD,Asc,5.210664513430895
+31,3T,basis lw matching,SD,Asp,2.1500741348815526
+32,3T,basis lw matching,SD,GABA,5.858350968291911
+33,3T,basis lw matching,SD,Glc,6.544943716000857
+34,3T,basis lw matching,SD,Gln,1.9021542780928404
+35,3T,basis lw matching,SD,Glu,0.8546380341084816
+36,3T,basis lw matching,SD,GSH,3.0417962122644444
+37,3T,basis lw matching,SD,Ins,0.5761609464499732
+38,3T,basis lw matching,SD,Lac,5.751483300916763
+39,3T,basis lw matching,SD,PEth,5.291844884622793
+40,3T,basis lw matching,SD,sIns,3.885761767813897
+41,3T,basis lw matching,SD,Tau,3.8924531531469135
+42,3T,basis lw matching,SD,tCho,2.6431678047284506
+43,3T,basis lw matching,SD,tCr,0.9664202262246843
+44,3T,basis lw matching,SD,tNAA,2.027217748095374
+45,3T,default analysis,Cohens d,Asc,0.07217757627759987
+46,3T,default analysis,Cohens d,Asp,0.07607475082704776
+47,3T,default analysis,Cohens d,GABA,0.056837628167590575
+48,3T,default analysis,Cohens d,Glc,0.13076614291935196
+49,3T,default analysis,Cohens d,Gln,0.2347638136833079
+50,3T,default analysis,Cohens d,Glu,0.3496095730449331
+51,3T,default analysis,Cohens d,GSH,0.17391489789453657
+52,3T,default analysis,Cohens d,Ins,0.26908858609805447
+53,3T,default analysis,Cohens d,Lac,0.1070581995246416
+54,3T,default analysis,Cohens d,PEth,0.005073884296796898
+55,3T,default analysis,Cohens d,sIns,0.06563523970000375
+56,3T,default analysis,Cohens d,Tau,0.11522043789556959
+57,3T,default analysis,Cohens d,tCho,0.34936608817707043
+58,3T,default analysis,Cohens d,tCr,0.4730270841917462
+59,3T,default analysis,Cohens d,tNAA,0.45116789477312297
+60,3T,default analysis,Mean,Asc,0.3761621102572725
+61,3T,default analysis,Mean,Asp,0.1635329544383376
+62,3T,default analysis,Mean,GABA,-0.3329266678237487
+63,3T,default analysis,Mean,Glc,-0.8564573970791209
+64,3T,default analysis,Mean,Gln,-0.4466060814179941
+65,3T,default analysis,Mean,Glu,0.2996885649053597
+66,3T,default analysis,Mean,GSH,0.5288577158262973
+67,3T,default analysis,Mean,Ins,0.15473664782518098
+68,3T,default analysis,Mean,Lac,0.6157465534856107
+69,3T,default analysis,Mean,PEth,0.026881841994927623
+70,3T,default analysis,Mean,sIns,0.2550250110314104
+71,3T,default analysis,Mean,Tau,0.44921751900088097
+72,3T,default analysis,Mean,tCho,0.9261025898827866
+73,3T,default analysis,Mean,tCr,0.45991770155400374
+74,3T,default analysis,Mean,tNAA,0.9204597360222381
+75,3T,default analysis,SD,Asc,5.211620141005115
+76,3T,default analysis,SD,Asp,2.149635097854238
+77,3T,default analysis,SD,GABA,5.857504589074092
+78,3T,default analysis,SD,Glc,6.549534749276257
+79,3T,default analysis,SD,Gln,1.9023633770937867
+80,3T,default analysis,SD,Glu,0.857209264309369
+81,3T,default analysis,SD,GSH,3.040899441214064
+82,3T,default analysis,SD,Ins,0.5750398040621305
+83,3T,default analysis,SD,Lac,5.751512319650811
+84,3T,default analysis,SD,PEth,5.298079424455523
+85,3T,default analysis,SD,sIns,3.8854891396305185
+86,3T,default analysis,SD,Tau,3.898765941230242
+87,3T,default analysis,SD,tCho,2.6508084820568127
+88,3T,default analysis,SD,tCr,0.9722861902080253
+89,3T,default analysis,SD,tNAA,2.040171179478775
+90,3T,preproc lw matching,Cohens d,Asc,0.07833605256688779
+91,3T,preproc lw matching,Cohens d,Asp,0.02531568062324022
+92,3T,preproc lw matching,Cohens d,GABA,0.04627862393300224
+93,3T,preproc lw matching,Cohens d,Glc,0.039714871006183566
+94,3T,preproc lw matching,Cohens d,Gln,0.08563705462792318
+95,3T,preproc lw matching,Cohens d,Glu,0.0697951477810837
+96,3T,preproc lw matching,Cohens d,GSH,0.03136379951315778
+97,3T,preproc lw matching,Cohens d,Ins,0.025513074334446155
+98,3T,preproc lw matching,Cohens d,Lac,0.018868732424243827
+99,3T,preproc lw matching,Cohens d,PEth,0.08133156927113976
+100,3T,preproc lw matching,Cohens d,sIns,0.031397413300039645
+101,3T,preproc lw matching,Cohens d,Tau,0.04102450162665475
+102,3T,preproc lw matching,Cohens d,tCho,0.037229197007780525
+103,3T,preproc lw matching,Cohens d,tCr,0.029124009685663966
+104,3T,preproc lw matching,Cohens d,tNAA,0.10894544356348415
+105,3T,preproc lw matching,Mean,Asc,0.4268617429062499
+106,3T,preproc lw matching,Mean,Asp,0.05689103684616405
+107,3T,preproc lw matching,Mean,GABA,0.28803025948528715
+108,3T,preproc lw matching,Mean,Glc,-0.27275950061771126
+109,3T,preproc lw matching,Mean,Gln,-0.16685311229227273
+110,3T,preproc lw matching,Mean,Glu,0.06352817866998454
+111,3T,preproc lw matching,Mean,GSH,0.09957835834048148
+112,3T,preproc lw matching,Mean,Ins,-0.015058106111583723
+113,3T,preproc lw matching,Mean,Lac,0.11503468026030622
+114,3T,preproc lw matching,Mean,PEth,0.45949520306922237
+115,3T,preproc lw matching,Mean,sIns,0.1279427586196022
+116,3T,preproc lw matching,Mean,Tau,0.17109995521988233
+117,3T,preproc lw matching,Mean,tCho,0.10672466456536761
+118,3T,preproc lw matching,Mean,tCr,-0.03355480989704297
+119,3T,preproc lw matching,Mean,tNAA,0.2609971869175602
+120,3T,preproc lw matching,SD,Asc,5.4491096872895275
+121,3T,preproc lw matching,SD,Asp,2.2472647562924744
+122,3T,preproc lw matching,SD,GABA,6.223829383999615
+123,3T,preproc lw matching,SD,Glc,6.867943762809726
+124,3T,preproc lw matching,SD,Gln,1.9483751866200674
+125,3T,preproc lw matching,SD,Glu,0.9102091003409599
+126,3T,preproc lw matching,SD,GSH,3.174945634335733
+127,3T,preproc lw matching,SD,Ins,0.5902113525869053
+128,3T,preproc lw matching,SD,Lac,6.096577007605549
+129,3T,preproc lw matching,SD,PEth,5.649653722251155
+130,3T,preproc lw matching,SD,sIns,4.074945837001185
+131,3T,preproc lw matching,SD,Tau,4.170677240079231
+132,3T,preproc lw matching,SD,tCho,2.866692626839715
+133,3T,preproc lw matching,SD,tCr,1.152135652308893
+134,3T,preproc lw matching,SD,tNAA,2.3956686794842703
+135,7T,basis lw matching,Cohens d,Asc,0.3451824118125845
+136,7T,basis lw matching,Cohens d,Asp,0.330486923793915
+137,7T,basis lw matching,Cohens d,GABA,0.1449011086140711
+138,7T,basis lw matching,Cohens d,Glc,0.3778115459020716
+139,7T,basis lw matching,Cohens d,Gln,0.10261006462139384
+140,7T,basis lw matching,Cohens d,Glu,1.163668789968255
+141,7T,basis lw matching,Cohens d,GSH,0.5130077019551252
+142,7T,basis lw matching,Cohens d,Ins,1.212897356497959
+143,7T,basis lw matching,Cohens d,Lac,0.3414387066596115
+144,7T,basis lw matching,Cohens d,PEth,0.30178511110767453
+145,7T,basis lw matching,Cohens d,sIns,0.13857540443636948
+146,7T,basis lw matching,Cohens d,Tau,0.5824303447296527
+147,7T,basis lw matching,Cohens d,tCho,1.251614609851159
+148,7T,basis lw matching,Cohens d,tCr,1.9404747685582406
+149,7T,basis lw matching,Cohens d,tNAA,0.42092567264723213
+150,7T,basis lw matching,Mean,Asc,0.7737930682316478
+151,7T,basis lw matching,Mean,Asp,0.45116657900370183
+152,7T,basis lw matching,Mean,GABA,-0.4237862760622548
+153,7T,basis lw matching,Mean,Glc,-1.4231236446615536
+154,7T,basis lw matching,Mean,Gln,-0.09511599826543585
+155,7T,basis lw matching,Mean,Glu,0.3181440620651745
+156,7T,basis lw matching,Mean,GSH,0.5286872692450826
+157,7T,basis lw matching,Mean,Ins,0.29979757354513076
+158,7T,basis lw matching,Mean,Lac,0.6448071931308265
+159,7T,basis lw matching,Mean,PEth,-0.8347039396908909
+160,7T,basis lw matching,Mean,sIns,0.24567731107367907
+161,7T,basis lw matching,Mean,Tau,0.7283282621130832
+162,7T,basis lw matching,Mean,tCho,1.3512463592770025
+163,7T,basis lw matching,Mean,tCr,0.8337681394907088
+164,7T,basis lw matching,Mean,tNAA,0.32148400145372014
+165,7T,basis lw matching,SD,Asc,2.2416932084354744
+166,7T,basis lw matching,SD,Asp,1.3651571258082218
+167,7T,basis lw matching,SD,GABA,2.9246586179748633
+168,7T,basis lw matching,SD,Glc,3.7667553045888806
+169,7T,basis lw matching,SD,Gln,0.9269655819474505
+170,7T,basis lw matching,SD,Glu,0.27339743474073364
+171,7T,basis lw matching,SD,GSH,1.0305639997805118
+172,7T,basis lw matching,SD,Ins,0.2471747274730211
+173,7T,basis lw matching,SD,Lac,1.8885005728821784
+174,7T,basis lw matching,SD,PEth,2.7658884052536146
+175,7T,basis lw matching,SD,sIns,1.7728781819033999
+176,7T,basis lw matching,SD,Tau,1.2504984822711325
+177,7T,basis lw matching,SD,tCho,1.0796025778555682
+178,7T,basis lw matching,SD,tCr,0.42967223949538536
+179,7T,basis lw matching,SD,tNAA,0.763754796498593
+180,7T,default analysis,Cohens d,Asc,0.34175105262545463
+181,7T,default analysis,Cohens d,Asp,0.32487590490423524
+182,7T,default analysis,Cohens d,GABA,0.1475133230615466
+183,7T,default analysis,Cohens d,Glc,0.3798309425586827
+184,7T,default analysis,Cohens d,Gln,0.11089157522230153
+185,7T,default analysis,Cohens d,Glu,1.1356212247805448
+186,7T,default analysis,Cohens d,GSH,0.5055662126818832
+187,7T,default analysis,Cohens d,Ins,1.1818593462762461
+188,7T,default analysis,Cohens d,Lac,0.3373385073069474
+189,7T,default analysis,Cohens d,PEth,0.30455890464044333
+190,7T,default analysis,Cohens d,sIns,0.13424659343028358
+191,7T,default analysis,Cohens d,Tau,0.5762844596140504
+192,7T,default analysis,Cohens d,tCho,1.2373847454111757
+193,7T,default analysis,Cohens d,tCr,1.904993052326536
+194,7T,default analysis,Cohens d,tNAA,0.4008629914485317
+195,7T,default analysis,Mean,Asc,0.7660282912563787
+196,7T,default analysis,Mean,Asp,0.4434638881027852
+197,7T,default analysis,Mean,GABA,-0.4313913903684672
+198,7T,default analysis,Mean,Glc,-1.4305986204128731
+199,7T,default analysis,Mean,Gln,-0.10278504364684356
+200,7T,default analysis,Mean,Glu,0.3104510370794595
+201,7T,default analysis,Mean,GSH,0.5209767244734437
+202,7T,default analysis,Mean,Ins,0.29210645480639735
+203,7T,default analysis,Mean,Lac,0.6370333133803534
+204,7T,default analysis,Mean,PEth,-0.8422940152036043
+205,7T,default analysis,Mean,sIns,0.2379791667484741
+206,7T,default analysis,Mean,Tau,0.7205767454278539
+207,7T,default analysis,Mean,tCho,1.3358131560771984
+208,7T,default analysis,Mean,tCr,0.8183675540940416
+209,7T,default analysis,Mean,tNAA,0.3061250054486265
+210,7T,default analysis,SD,Asc,2.241480414973044
+211,7T,default analysis,SD,Asp,1.3650254802168433
+212,7T,default analysis,SD,GABA,2.9244232413398947
+213,7T,default analysis,SD,Glc,3.7664088417226567
+214,7T,default analysis,SD,Gln,0.9268967767911402
+215,7T,default analysis,SD,Glu,0.2733755149208779
+216,7T,default analysis,SD,GSH,1.0304816884613632
+217,7T,default analysis,SD,Ins,0.24715839133206027
+218,7T,default analysis,SD,Lac,1.888409711852762
+219,7T,default analysis,SD,PEth,2.7656194002864605
+220,7T,default analysis,SD,sIns,1.772701717545336
+221,7T,default analysis,SD,Tau,1.2503837877398933
+222,7T,default analysis,SD,tCho,1.0795455181026299
+223,7T,default analysis,SD,tCr,0.4295908339899629
+224,7T,default analysis,SD,tNAA,0.7636649228766008
+225,7T,preproc lw matching,Cohens d,Asc,0.02972164442216509
+226,7T,preproc lw matching,Cohens d,Asp,0.19429270294997683
+227,7T,preproc lw matching,Cohens d,GABA,0.08972350836593376
+228,7T,preproc lw matching,Cohens d,Glc,0.03528933791493432
+229,7T,preproc lw matching,Cohens d,Gln,0.13361654698952372
+230,7T,preproc lw matching,Cohens d,Glu,0.07232499646589184
+231,7T,preproc lw matching,Cohens d,GSH,0.10130982882719883
+232,7T,preproc lw matching,Cohens d,Ins,0.07122659244835694
+233,7T,preproc lw matching,Cohens d,Lac,0.014869424491069662
+234,7T,preproc lw matching,Cohens d,PEth,0.20757714617098072
+235,7T,preproc lw matching,Cohens d,sIns,0.08066383064027943
+236,7T,preproc lw matching,Cohens d,Tau,0.07749260894238813
+237,7T,preproc lw matching,Cohens d,tCho,0.013314931109715737
+238,7T,preproc lw matching,Cohens d,tCr,0.06268156462001591
+239,7T,preproc lw matching,Cohens d,tNAA,0.0363010873621986
+240,7T,preproc lw matching,Mean,Asc,-0.07990021670301149
+241,7T,preproc lw matching,Mean,Asp,0.2852424230521247
+242,7T,preproc lw matching,Mean,GABA,0.2874791243510262
+243,7T,preproc lw matching,Mean,Glc,0.15694833522270374
+244,7T,preproc lw matching,Mean,Gln,-0.1367571202457632
+245,7T,preproc lw matching,Mean,Glu,-0.023553854670947477
+246,7T,preproc lw matching,Mean,GSH,0.11063065168210187
+247,7T,preproc lw matching,Mean,Ins,-0.020936231487309942
+248,7T,preproc lw matching,Mean,Lac,-0.030672548217134325
+249,7T,preproc lw matching,Mean,PEth,0.6621847070813701
+250,7T,preproc lw matching,Mean,sIns,-0.16604024414733928
+251,7T,preproc lw matching,Mean,Tau,-0.11487770825026167
+252,7T,preproc lw matching,Mean,tCho,0.01699421219563514
+253,7T,preproc lw matching,Mean,tCr,-0.036001479456616386
+254,7T,preproc lw matching,Mean,tNAA,-0.034284705873683236
+255,7T,preproc lw matching,SD,Asc,2.6882838502510795
+256,7T,preproc lw matching,SD,Asp,1.4681067210515057
+257,7T,preproc lw matching,SD,GABA,3.2040557662831683
+258,7T,preproc lw matching,SD,Glc,4.44747180015196
+259,7T,preproc lw matching,SD,Gln,1.0235043737246534
+260,7T,preproc lw matching,SD,Glu,0.3256668623835381
+261,7T,preproc lw matching,SD,GSH,1.0920031448360386
+262,7T,preproc lw matching,SD,Ins,0.2939384121525934
+263,7T,preproc lw matching,SD,Lac,2.0627932328891254
+264,7T,preproc lw matching,SD,PEth,3.190065569819186
+265,7T,preproc lw matching,SD,sIns,2.058422502742229
+266,7T,preproc lw matching,SD,Tau,1.4824343872028813
+267,7T,preproc lw matching,SD,tCho,1.276327459421452
+268,7T,preproc lw matching,SD,tCr,0.5743551501125125
+269,7T,preproc lw matching,SD,tNAA,0.9444539644667757
